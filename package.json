@@ -61,5 +61,8 @@
       "arlac77/template-arlac77-github",
       "arlac77/template-svelte-component"
     ]
+  },
+  "dependencies": {
+    "svelte-guard-history-router": "^2.8.0"
   }
 }
