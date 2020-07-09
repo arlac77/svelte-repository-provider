@@ -1,2 +1,65 @@
-{}
-
+{
+  "name": "{{fullName}}",
+  "version": "0.0.0-semantic-release",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./src/index.mjs",
+  "svelte": "./src/index.svelte",
+  "description": "Svelte components for repository providers",
+  "keywords": [
+    "web",
+    "component",
+    "svelte"
+  ],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "start": "rollup -c example/rollup.config.mjs -w",
+    "test": "--overwrite-- testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\"",
+    "docs": "--overwrite-- documentation readme {{main}} --section=API",
+    "lint": "--overwrite-- documentation lint {{main}}"
+  },
+  "devDependencies": {
+    "testcafe": "^1.8.8",
+    "builtin-modules": "^3.1.0",
+    "rollup": "^2.21.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-typescript": "^5.0.0",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-virtual": "^2.0.3",
+    "@rollup/plugin-inject": "^4.0.2",
+    "rollup-plugin-executable": "^1.6.0",
+    "rollup-plugin-native": "^1.2.14",
+    "rollup-plugin-consts": "^1.0.2",
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-dev": "^1.1.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-gzip": "2.5.0",
+    "documentation": "^13.0.2",
+    "semantic-release": "^17.1.1",
+    "rollup-plugin-svelte": "git+https://github.com/ctavan/rollup-plugin-svelte.git#handle-missing-exports-gracefully",
+    "svelte": "^3.24.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arlac77/svelte-repository-provider.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arlac77/svelte-repository-provider/issues"
+  },
+  "homepage": "https://github.com/arlac77/svelte-repository-provider#readme",
+  "template": {
+    "inheritFrom": [
+      "arlac77/template-arlac77-github",
+      "arlac77/template-svelte-component"
+    ]
+  }
+}
