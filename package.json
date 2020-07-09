@@ -1,5 +1,5 @@
 {
-  "name": "{{fullName}}",
+  "name": "svelte-repository-provider",
   "version": "0.0.0-semantic-release",
   "publishConfig": {
     "access": "public"
@@ -22,8 +22,8 @@
   "scripts": {
     "start": "rollup -c example/rollup.config.mjs -w",
     "test": "--overwrite-- testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\"",
-    "docs": "--overwrite-- documentation readme {{main}} --section=API",
-    "lint": "--overwrite-- documentation lint {{main}}"
+    "docs": "--overwrite-- documentation readme ./src/index.mjs --section=API",
+    "lint": "--overwrite-- documentation lint ./src/index.mjs"
   },
   "devDependencies": {
     "testcafe": "^1.8.8",

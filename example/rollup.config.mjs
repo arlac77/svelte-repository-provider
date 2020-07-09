@@ -16,7 +16,7 @@ export default {
       port,
       dirs: ["example/public"],
       spa: "example/public/index.html",
-      basePath: "/base"
+      basePath: "/components/svelte-repository-provider"
     }),
     resolve({ browser: true,
               dedupe: importee => importee === 'svelte' || importee.startsWith('svelte/') }),
