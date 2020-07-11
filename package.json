@@ -8,9 +8,9 @@
   "svelte": "./src/index.svelte",
   "description": "Svelte components for repository providers",
   "keywords": [
-    "web",
     "component",
-    "svelte"
+    "svelte",
+    "web"
   ],
   "contributors": [
     {
@@ -21,32 +21,22 @@
   "license": "BSD-2-Clause",
   "scripts": {
     "start": "rollup -c example/rollup.config.mjs -w",
-    "test": "--overwrite-- testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\"",
-    "docs": "--overwrite-- documentation readme ./src/index.mjs --section=API",
-    "lint": "--overwrite-- documentation lint ./src/index.mjs"
+    "test": "testcafe $BROWSER:headless tests/*-test.js -s test-results --app-init-delay 1000 --app \"rollup -c example/rollup.config.mjs -w\"",
+    "docs": "documentation readme ./src/index.mjs --section=API",
+    "lint": "documentation lint ./src/index.mjs"
+  },
+  "dependencies": {
+    "svelte-guard-history-router": "^2.8.0"
   },
   "devDependencies": {
-    "testcafe": "^1.8.8",
-    "builtin-modules": "^3.1.0",
-    "rollup": "^2.21.0",
     "@rollup/plugin-node-resolve": "^8.1.0",
-    "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-commonjs": "^13.0.0",
-    "@rollup/plugin-typescript": "^5.0.0",
-    "@rollup/plugin-babel": "^5.0.3",
-    "@rollup/plugin-virtual": "^2.0.3",
-    "@rollup/plugin-inject": "^4.0.2",
-    "rollup-plugin-executable": "^1.6.0",
-    "rollup-plugin-native": "^1.2.14",
-    "rollup-plugin-consts": "^1.0.2",
-    "rollup-plugin-cleanup": "^3.1.1",
-    "rollup-plugin-dev": "^1.1.2",
-    "rollup-plugin-terser": "^6.1.0",
-    "rollup-plugin-gzip": "2.5.0",
     "documentation": "^13.0.2",
-    "semantic-release": "^17.1.1",
+    "rollup": "^2.21.0",
+    "rollup-plugin-dev": "^1.1.2",
     "rollup-plugin-svelte": "git+https://github.com/ctavan/rollup-plugin-svelte.git#handle-missing-exports-gracefully",
-    "svelte": "^3.24.0"
+    "semantic-release": "^17.1.1",
+    "svelte": "^3.24.0",
+    "testcafe": "^1.8.8"
   },
   "repository": {
     "type": "git",
@@ -61,8 +51,5 @@
       "arlac77/template-arlac77-github",
       "arlac77/template-svelte-component"
     ]
-  },
-  "dependencies": {
-    "svelte-guard-history-router": "^2.8.0"
   }
 }
