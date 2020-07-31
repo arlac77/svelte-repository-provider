@@ -1,6 +1,5 @@
 <script>
+  import AttributeField from "../../src/AttributeField.svelte";
 </script>
 
-<div>
-  <h1>Example</h1>
-</div>
+<AttributeField attribute={{ name: 'a1', value: 77}}/>
