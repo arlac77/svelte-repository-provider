@@ -1,6 +1,6 @@
 <script>
   import { ObjectLink } from "svelte-guard-history-router";
-  import Attributes from "./Attributes.mjs";
+  import Attributes from "./Attributes.svelte";
 
   export let pullRequest;
 </script>
