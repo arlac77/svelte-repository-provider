@@ -1,33 +1,17 @@
 <script>
   import { Router } from "svelte-guard-history-router";
+  import { MultiGroupProvider, PullRequest } from "repository-provider";
   import AttributeField from "../../src/AttributeField.svelte";
   import SecureAttributeField from "../../src/SecureAttributeField.svelte";
   import PullRequestCard from "../../src/PullRequestCard.svelte";
   import RepositoryGroupCard from "../../src/RepositoryGroupCard.svelte";
 
-  class PullRequest {
-    static get attributes() {
-      return { a1: { type: "string" } };
-    }
-
-    get displayName() {
-      return "PR #1";
-    }
-  }
-
-  const pullRequest = new PullRequest();
-
-  class RepositoryGroup {
-    static get attributes() {
-      return { a1: { type: "string" } };
-    }
-
-    get displayName() {
-      return "RG #1";
-    }
-  }
-
-  const repositoryGroup = new RepositoryGroup();
+  const provider = new MultiGroupProvider();
+  const repositoryGroup = provider.addRepositoryGroup("rg1");
+  const repository = repositoryGroup.addRepository("r1");
+  const b1 = repository.addBranch("b1");
+  const b2 = repository.addBranch("b2");
+  const pullRequest = new PullRequest(b1, b2, 4711);
 </script>
 
 <Router>
