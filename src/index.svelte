@@ -4,6 +4,7 @@
   import SecureAttributeField from "./SecureAttributeField.svelte";
   import PullRequestCard from "./PullRequestCard.svelte";
   import RepositoryGroupCard from "./RepositoryGroupCard.svelte";
+  import HookCard from "./HookCard.svelte";
 
-  export { Attributes, AttributeField, SecureAttributeField, PullRequestCard, RepositoryGroupCard };
+  export { Attributes, AttributeField, SecureAttributeField, PullRequestCard, RepositoryGroupCard, HookCard };
 </script>
