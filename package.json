@@ -26,7 +26,7 @@
     "lint": "documentation lint ./src/index.mjs"
   },
   "dependencies": {
-    "svelte-guard-history-router": "^2.23.9"
+    "svelte-guard-history-router": "^2.24.0"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^8.4.0",
@@ -36,8 +36,8 @@
     "rollup-plugin-dev": "^1.1.2",
     "rollup-plugin-svelte": "git+https://github.com/ctavan/rollup-plugin-svelte.git#handle-missing-exports-gracefully",
     "semantic-release": "^17.1.1",
-    "svelte": "^3.24.0",
-    "testcafe": "^1.8.8"
+    "svelte": "^3.24.1",
+    "testcafe": "^1.9.0"
   },
   "repository": {
     "type": "git",
