@@ -5,6 +5,7 @@
   import PullRequestCard from "./PullRequestCard.svelte";
   import RepositoryGroupCard from "./RepositoryGroupCard.svelte";
   import HookCard from "./HookCard.svelte";
+  import HookLink from "./HookLink.svelte";
 
-  export { Attributes, AttributeField, SecureAttributeField, PullRequestCard, RepositoryGroupCard, HookCard };
+  export { Attributes, AttributeField, SecureAttributeField, PullRequestCard, RepositoryGroupCard, HookCard, HookLink };
 </script>
