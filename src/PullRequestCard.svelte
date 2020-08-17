@@ -8,8 +8,14 @@
 <div class="card">
   <div class="card-content">
     <h5 class="card-title">{pullRequest.displayName}</h5>
-    <ObjectLink object={pullRequest.source} />
-    <ObjectLink object={pullRequest.destination} />
+    <div>
+      Source:
+      <ObjectLink object={pullRequest.source} />
+    </div>
+    <div>
+      Destination:
+      <ObjectLink object={pullRequest.destination} />
+    </div>
 
     <Attributes object={pullRequest} />
   </div>
