@@ -7,6 +7,7 @@
   import RepositoryGroupCard from "./RepositoryGroupCard.svelte";
   import HookCard from "./HookCard.svelte";
   import HookLink from "./HookLink.svelte";
+  import ContentEntryCard from "./ContentEntryCard.svelte";
 
   export {
     Attributes,
@@ -16,6 +17,7 @@
     PullRequestLink,
     RepositoryGroupCard,
     HookCard,
-    HookLink
+    HookLink,
+    ContentEntryCard
   };
 </script>

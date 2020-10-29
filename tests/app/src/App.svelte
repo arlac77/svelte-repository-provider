@@ -1,12 +1,14 @@
 <script>
   import { Router } from "svelte-guard-history-router";
   import { MultiGroupProvider, PullRequest, Hook } from "repository-provider";
+  import { StringContentEntry } from "content-entry";
   import {
     AttributeField,
     SecureAttributeField,
     PullRequestCard,
     RepositoryGroupCard,
-    HookCard
+    HookCard,
+    ContentEntryCard
   } from "../../../src/index.svelte";
 
   const provider = new MultiGroupProvider();
@@ -17,6 +19,8 @@
   const pullRequest = new PullRequest(b1, b2, 4711);
 
   const hook = new Hook(repository, "h1");
+
+  const entry = new StringContentEntry("entry name", "lines 1");
 </script>
 
 <Router>
@@ -27,3 +31,6 @@
 
 <AttributeField attribute={{ name: 'a1', value: 'value a1' }} />
 <SecureAttributeField attribute={{ name: 's1', value: 'value s1' }} />
+
+
+<ContentEntryCard object={entry}/>
