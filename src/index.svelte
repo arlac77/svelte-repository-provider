@@ -9,6 +9,11 @@
   import HookLink from "./HookLink.svelte";
   import ContentEntryCard from "./ContentEntryCard.svelte";
 
+  import ProjectRoutes from "./ProjectRoutes.svelte";
+  import ProjectLink from "./ProjectLink.svelte";
+  import ProjectsPage from "./ProjectsPage.svelte";
+  import ProjectPage from "./ProjectPage.svelte";
+
   export {
     Attributes,
     AttributeField,
@@ -18,6 +23,10 @@
     RepositoryGroupCard,
     HookCard,
     HookLink,
-    ContentEntryCard
+    ContentEntryCard,
+    ProjectRoutes,
+    ProjectLink,
+    ProjectsPage,
+    ProjectPage
   };
 </script>
