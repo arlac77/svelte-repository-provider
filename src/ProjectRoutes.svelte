@@ -2,8 +2,8 @@
     import { Project } from "repository-provider";
     import {
       Route,
-      ChildStoreRoute,
-      IteratorStoreRoute
+      DetailRoute,
+      MasterRoute
     } from "svelte-guard-history-router";
     import ProjectsPage from "./ProjectsPage.svelte";
     import ProjectPage from "./ProjectPage.svelte";
@@ -14,14 +14,14 @@
   
   <Route
     path="/project"
-    factory={IteratorStoreRoute}
+    factory={MasterRoute}
     iteratorFor={() => provider.projects}
     objectInstance={Project}
     component={ProjectsPage}>
     <slot />
     <Route
       path="/:project"
-      factory={ChildStoreRoute}
+      factory={DetailRoute}
       propertyMapping={{ project: 'name' }}
       linkComponent={ProjectLink}
       component={ProjectPage} />
