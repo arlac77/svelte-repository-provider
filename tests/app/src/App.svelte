@@ -33,4 +33,4 @@
 <SecureAttributeField attribute={{ name: 's1', value: 'value s1' }} />
 
 
-<ContentEntryCard object={entry}/>
+<ContentEntryCard {entry}/>
