@@ -1,10 +1,10 @@
 <script>
-  export let object;
+  export let entry;
 </script>
 
-<h1>{object.name}</h1>
+<h1>{entry.name}</h1>
 
-{#await object.getString()}
+{#await entry.getString()}
   <p>...waiting</p>
 {:then string}
   {string}
