@@ -3,14 +3,13 @@
   import AttributeField from "./AttributeField.svelte";
   import SecureAttributeField from "./SecureAttributeField.svelte";
   import PullRequestCard from "./PullRequestCard.svelte";
-  import PullRequestLink from "./PullRequestLink.svelte";
+  import DisplayNameLink from "./DisplayNameLink.svelte";
   import RepositoryGroupCard from "./RepositoryGroupCard.svelte";
   import HookCard from "./HookCard.svelte";
   import HookLink from "./HookLink.svelte";
   import ContentEntryCard from "./ContentEntryCard.svelte";
 
   import ProjectRoutes from "./ProjectRoutes.svelte";
-  import ProjectLink from "./ProjectLink.svelte";
   import ProjectsPage from "./ProjectsPage.svelte";
   import ProjectPage from "./ProjectPage.svelte";
 
@@ -19,13 +18,12 @@
     AttributeField,
     SecureAttributeField,
     PullRequestCard,
-    PullRequestLink,
+    DisplayNameLink,
     RepositoryGroupCard,
     HookCard,
     HookLink,
     ContentEntryCard,
     ProjectRoutes,
-    ProjectLink,
     ProjectsPage,
     ProjectPage
   };

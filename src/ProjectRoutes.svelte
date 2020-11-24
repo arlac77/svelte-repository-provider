@@ -7,7 +7,7 @@
     } from "svelte-guard-history-router";
     import ProjectsPage from "./ProjectsPage.svelte";
     import ProjectPage from "./ProjectPage.svelte";
-    import ProjectLink from "./ProjectLink.svelte";
+    import DisplayNameLink from "./DisplayNameLink.svelte";
   
     export let provider;
   </script>
@@ -23,7 +23,7 @@
       path="/:project"
       factory={DetailRoute}
       propertyMapping={{ project: 'name' }}
-      linkComponent={ProjectLink}
+      linkComponent={DisplayNameLink}
       component={ProjectPage} />
   </Route>
   
