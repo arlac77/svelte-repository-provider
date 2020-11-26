@@ -3,6 +3,8 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![minified size](https://badgen.net/bundlephobia/min/svelte-repository-provider)](https://bundlephobia.com/result?p=svelte-repository-provider)
 [![downloads](http://img.shields.io/npm/dm/svelte-repository-provider.svg?style=flat-square)](https://npmjs.org/package/svelte-repository-provider)
+[![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 # API
 
