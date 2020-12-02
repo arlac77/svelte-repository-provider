@@ -28,7 +28,7 @@
     "lint:docs": "documentation lint ./src/index.svelte"
   },
   "dependencies": {
-    "repository-provider": "^24.8.0",
+    "repository-provider": "^24.8.1",
     "svelte-guard-history-router": "^4.0.1"
   },
   "devDependencies": {
