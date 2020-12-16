@@ -1,3 +1,5 @@
+import postcssImport from "postcss-import";
+
 import resolve from "@rollup/plugin-node-resolve";
 import dev from "rollup-plugin-dev";
 import svelte from "rollup-plugin-svelte";
