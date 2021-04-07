@@ -35,7 +35,7 @@
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@rollup/plugin-virtual": "^2.0.3",
     "content-entry": "^2.6.2",
-    "documentation": "^13.2.0",
+    "documentation": "^13.2.1",
     "mf-styling": "arlac77/mf-styling",
     "postcss": "^8.2.9",
     "postcss-import": "^14.0.1",
