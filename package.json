@@ -28,8 +28,8 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "repository-provider": "^25.2.4",
-    "svelte-guard-history-router": "^4.2.8"
+    "repository-provider": "^25.2.5",
+    "svelte-guard-history-router": "^4.2.9"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.0",
