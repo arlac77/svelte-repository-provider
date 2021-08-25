@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "repository-provider": "^25.5.1",
-    "svelte-guard-history-router": "^4.2.12"
+    "svelte-guard-history-router": "^4.2.13"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
