@@ -28,13 +28,13 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "repository-provider": "^25.5.1",
+    "repository-provider": "^25.5.3",
     "svelte-guard-history-router": "^4.2.16"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@rollup/plugin-virtual": "^2.0.3",
-    "content-entry": "^2.6.5",
+    "content-entry": "^2.6.7",
     "documentation": "^13.2.5",
     "mf-styling": "arlac77/mf-styling",
     "postcss": "^8.3.6",
