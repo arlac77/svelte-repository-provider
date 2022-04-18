@@ -71,7 +71,8 @@
   "template": {
     "inheritFrom": [
       "arlac77/template-arlac77-github",
-      "arlac77/template-svelte-component"
+      "arlac77/template-svelte-component",
+      "arlac77/template-cloudflare"
     ]
   }
 }
