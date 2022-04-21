@@ -30,7 +30,7 @@
     "svelte-guard-history-router": "^4.6.5"
   },
   "devDependencies": {
-    "content-entry": "^4.1.9",
+    "content-entry": "^5.0.0",
     "documentation": "^13.2.5",
     "mf-styling": "^1.0.7",
     "semantic-release": "^19.0.2",
