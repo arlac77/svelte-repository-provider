@@ -26,7 +26,7 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "repository-provider": "^28.3.3",
+    "repository-provider": "^28.3.4",
     "svelte-guard-history-router": "^4.6.5"
   },
   "devDependencies": {
