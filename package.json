@@ -32,7 +32,7 @@
   "devDependencies": {
     "content-entry": "^5.0.0",
     "documentation": "^13.2.5",
-    "mf-styling": "^1.0.7",
+    "mf-styling": "^1.0.13",
     "semantic-release": "^19.0.2",
     "testcafe": "^1.18.4"
   },
