@@ -27,12 +27,12 @@
   },
   "dependencies": {
     "repository-provider": "^29.2.0",
-    "svelte-guard-history-router": "^4.6.7"
+    "svelte-guard-history-router": "^4.6.8"
   },
   "devDependencies": {
     "content-entry": "^5.0.1",
     "documentation": "^13.2.5",
-    "mf-styling": "^1.2.7",
+    "mf-styling": "^1.2.11",
     "semantic-release": "^19.0.2",
     "testcafe": "^1.18.4"
   },
