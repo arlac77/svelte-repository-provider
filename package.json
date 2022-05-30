@@ -26,13 +26,13 @@
     "lint:docs": "documentation lint ./src/**/*.mjs"
   },
   "dependencies": {
-    "repository-provider": "^31.2.1",
-    "svelte-guard-history-router": "^4.6.10"
+    "repository-provider": "^31.2.2",
+    "svelte-guard-history-router": "^4.6.11"
   },
   "devDependencies": {
-    "content-entry": "^5.0.1",
+    "content-entry": "^5.0.2",
     "documentation": "^13.2.5",
-    "mf-styling": "^1.2.18",
+    "mf-styling": "^1.2.19",
     "semantic-release": "^19.0.2",
     "testcafe": "^1.18.4"
   },
