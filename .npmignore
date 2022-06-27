@@ -1,4 +1,5 @@
 rollup.config.*
+.node-version
 build
 tests
 doc
