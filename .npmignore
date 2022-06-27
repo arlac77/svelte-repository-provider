@@ -1,4 +1,4 @@
-rollup.config.*
+.node-version
 build
 tests
 doc
@@ -9,3 +9,4 @@ doc
 .vscode
 .github
 jsconfig.json
+vite.config.js
