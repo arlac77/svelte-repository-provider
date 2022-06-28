@@ -25,9 +25,9 @@
     "start": "vite dev",
     "test": "npm run test:cafe",
     "test:cafe": "testcafe $BROWSER:headless tests/cafe/*.js -s build/test --page-request-timeout 9000 --app-init-delay 3000 --app \"vite\"",
-    "docs": "documentation readme --section=API ./src/**/*.mjs && documentation readme --section=API {{javascript.source}}",
+    "docs": "documentation readme --section=API ./src/**/*.mjs",
     "lint": "npm run lint:docs",
-    "lint:docs": "documentation lint ./src/**/*.mjs && documentation lint {{javascript.source}}",
+    "lint:docs": "documentation lint ./src/**/*.mjs",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -85,5 +85,8 @@
       "arlac77/template-pacman",
       "arlac77/template-svelte-component#next"
     ]
+  },
+  "optionalDependencies": {
+    "mf-hosting": "^1.7.0"
   }
 }

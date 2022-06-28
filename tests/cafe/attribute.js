@@ -1,8 +1,9 @@
 import { Selector } from "testcafe";
 
-const base = "http://localhost:5000/components/svelte-repository-provider/example";
+export const base =
+  "http://localhost:3000/services/svelte-repository-provider/";
 
-fixture`attributes`.page`${base}/index.html`;
+fixture`attributes`.page`${base}index.html`;
 
 test("attributes", async t => {
   await t.expect(Selector('#a1').value).contains('value a1');
