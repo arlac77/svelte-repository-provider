@@ -1,5 +1,4 @@
 <script>
-  import * as style from "./main.css";
   import { Router } from "svelte-guard-history-router";
   import { MultiGroupProvider, PullRequest, Hook } from "repository-provider";
   import { StringContentEntry } from "content-entry";
