@@ -10,3 +10,4 @@ doc
 .github
 jsconfig.json
 vite.config.js
+pkg
