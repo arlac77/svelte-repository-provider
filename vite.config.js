@@ -1,5 +1,4 @@
 import { svelte } from "@sveltejs/vite-plugin-svelte";
-//import { extractFromPackage } from "npm-pkgbuild/src/module.mjs";
 import { defineConfig } from "vite";
 
 export default defineConfig(async ({ command, mode }) => {
@@ -19,6 +18,8 @@ export default defineConfig(async ({ command, mode }) => {
   process.env["VITE_DESCRIPTION"] = properties.description;
   process.env["VITE_VERSION"] = properties.version;
 
+  const open = process.env.CI ? {} : { open: base };
+
   return {
     base,
     root: "tests/app/src",
@@ -30,12 +31,7 @@ export default defineConfig(async ({ command, mode }) => {
         }
       })
     ],
-    optimizeDeps: {
-      exclude: [
-        ...Object.keys(pkg.dependencies).filter(d => d.startsWith("svelte"))
-      ]
-    },
-    server: { host: true },
+    server: { host: true, ...open },
     build: {
       outDir: "../../../build",
       target: "esnext",
