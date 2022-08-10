@@ -31,7 +31,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "repository-provider": "^32.0.4",
+    "repository-provider": "^32.0.5",
     "svelte-guard-history-router": "^5.1.12"
   },
   "devDependencies": {
@@ -39,7 +39,7 @@
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
-    "content-entry": "^5.1.0",
+    "content-entry": "^5.1.1",
     "documentation": "^13.2.5",
     "mf-styling": "^1.2.44",
     "npm-pkgbuild": "^10.13.6",
