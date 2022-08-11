@@ -9,5 +9,5 @@ doc
 .vscode
 .github
 jsconfig.json
-vite.config.js
 pkg
+vite.config.mts
