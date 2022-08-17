@@ -42,7 +42,7 @@
     "content-entry": "^5.2.3",
     "documentation": "^13.2.5",
     "mf-styling": "^1.2.45",
-    "npm-pkgbuild": "^10.14.7",
+    "npm-pkgbuild": "^10.14.8",
     "semantic-release": "^19.0.3",
     "svelte": "^3.49.0",
     "testcafe": "^1.20.1",
