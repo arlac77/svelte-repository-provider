@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "repository-provider": "^32.2.3",
-    "svelte-guard-history-router": "^5.5.10"
+    "svelte-guard-history-router": "^5.5.11"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
