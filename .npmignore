@@ -9,3 +9,4 @@ doc
 jsconfig.json
 pkg
 vite.config.mts
+dist
