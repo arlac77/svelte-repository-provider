@@ -31,7 +31,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "repository-provider": "^32.3.10",
+    "repository-provider": "^32.3.11",
     "svelte-guard-history-router": "^5.5.13"
   },
   "devDependencies": {
