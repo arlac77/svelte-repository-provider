@@ -31,15 +31,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "repository-provider": "^32.3.11",
-    "svelte-guard-history-router": "^5.5.13"
+    "repository-provider": "^32.3.17",
+    "svelte-guard-history-router": "^5.5.14"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@sveltejs/vite-plugin-svelte": "^2.0.2",
-    "content-entry": "^5.2.15",
+    "content-entry": "^5.2.16",
     "documentation": "^14.0.1",
     "mf-styling": "^1.7.33",
     "npm-pkgbuild": "^10.15.23",
