@@ -4,7 +4,7 @@
 
 <h1>{entry.name}</h1>
 
-{#await entry.getString()}
+{#await entry.string}
   <p>...waiting</p>
 {:then string}
   {string}
