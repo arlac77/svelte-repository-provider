@@ -36,10 +36,7 @@ export default defineConfig(async ({ command, mode }) => {
       target: "safari16",
       emptyOutDir: true,
       minify: production,
-      sourcemap: true,
-      rollupOptions: {
-      	external: ["#util-stream.mjs","#stream.mjs"]
-      }
+      sourcemap: true
     }
   };
 });
