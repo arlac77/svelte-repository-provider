@@ -1,9 +1,9 @@
 <script>
   export let router;
 
-  const router = router.route;
+  const route = router.route;
 </script>
 
-{#if $router}
-  <h1>{router.name}</h1>
+{#if $route}
+  <h1>{route.name}</h1>
 {:else}No such project{/if}
