@@ -14,6 +14,7 @@
     type="text"
     placeholder={attribute.name}
     name={attribute.name}
+    id={attribute.name}
     required
     bind:value={attribute.value} />
 </label>
