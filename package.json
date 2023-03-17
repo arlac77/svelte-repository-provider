@@ -25,15 +25,15 @@
     "start": "vite",
     "test": "npm run test:cafe",
     "test:cafe": "testcafe --experimental-esm $BROWSER:headless tests/cafe/*.*js -s build/test --page-request-timeout 5000 --app-init-delay 8000 --app vite",
-    "docs": "documentation readme --section=API ./src/**/*.mjs",
+    "docs": "documentation readme --section=API ./src/**/*.mjs && documentation readme --section=API {{javascript.source}}",
     "lint": "npm run lint:docs",
-    "lint:docs": "documentation lint ./src/**/*.mjs",
+    "lint:docs": "documentation lint ./src/**/*.mjs && documentation lint {{javascript.source}}",
     "preview": "vite preview"
   },
   "dependencies": {
+    "content-entry": "^8.0.1",
     "repository-provider": "^32.6.10",
-    "svelte-guard-history-router": "^5.5.28",
-    "content-entry": "^8.0.1"
+    "svelte-guard-history-router": "^5.5.28"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
