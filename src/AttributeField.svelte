@@ -11,7 +11,6 @@
     size="60"
     autocorrect="off"
     autocapitalize="off"
-    id={attribute.name}
     type="text"
     placeholder={attribute.name}
     name={attribute.name}
