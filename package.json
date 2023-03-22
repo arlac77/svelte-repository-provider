@@ -33,7 +33,7 @@
   "dependencies": {
     "content-entry": "^8.0.1",
     "repository-provider": "^32.6.11",
-    "svelte-guard-history-router": "^5.5.28"
+    "svelte-guard-history-router": "^5.5.29"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
