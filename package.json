@@ -33,7 +33,7 @@
   "dependencies": {
     "content-entry": "^8.0.1",
     "repository-provider": "^32.7.3",
-    "svelte-guard-history-router": "^5.5.31"
+    "svelte-guard-history-router": "^5.5.32"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
@@ -41,7 +41,7 @@
     "@semantic-release/release-notes-generator": "^10.0.3",
     "@sveltejs/vite-plugin-svelte": "^2.0.4",
     "documentation": "^14.0.1",
-    "mf-styling": "^1.7.52",
+    "mf-styling": "^1.7.53",
     "npm-pkgbuild": "^11.7.13",
     "semantic-release": "^21.0.1",
     "svelte": "^3.58.0",
