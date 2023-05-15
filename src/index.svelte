@@ -8,7 +8,6 @@
   import HookCard from "./HookCard.svelte";
   import HookLink from "./HookLink.svelte";
   import ContentEntryCard from "./ContentEntryCard.svelte";
-
   import ProjectRoutes from "./ProjectRoutes.svelte";
   import ProjectsPage from "./ProjectsPage.svelte";
   import ProjectPage from "./ProjectPage.svelte";
