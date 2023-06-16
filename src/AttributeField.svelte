@@ -2,7 +2,7 @@
   export let attribute;
 </script>
 
-<label for={attribute.name}>
+<label>
   {attribute.name} ({attribute.env})
   <input
     aria-label={attribute.name}

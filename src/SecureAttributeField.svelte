@@ -2,7 +2,7 @@
   export let attribute;
 </script>
 
-<label for={attribute.name}>
+<label>
   {attribute.name} ({attribute.env})
   <input
     aria-label={attribute.name}
@@ -16,5 +16,6 @@
     placeholder={attribute.name}
     name={attribute.name}
     required
-    bind:value={attribute.value} />
+    bind:value={attribute.value}
+  />
 </label>
