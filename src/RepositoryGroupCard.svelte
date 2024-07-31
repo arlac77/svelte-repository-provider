@@ -2,7 +2,7 @@
   import { ObjectLink } from "svelte-guard-history-router";
   import Attributes from "./Attributes.svelte";
 
-  export let repositoryGroup;
+  let { repositoryGroup } = $props();
 </script>
 
 <div class="card">

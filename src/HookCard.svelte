@@ -1,7 +1,7 @@
 <script>
   import Attributes from "./Attributes.svelte";
 
-  export let hook;
+  let { hook } = $props();
 </script>
 
 <div class="card">

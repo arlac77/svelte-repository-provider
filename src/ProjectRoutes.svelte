@@ -9,7 +9,7 @@
     import ProjectPage from "./ProjectPage.svelte";
     import DisplayNameLink from "./DisplayNameLink.svelte";
   
-    export let provider;
+    let { provider } = $props();
   </script>
   
   <Route

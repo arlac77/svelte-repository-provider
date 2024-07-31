@@ -1,5 +1,5 @@
 <script>
-  export let attribute;
+  let { attribute } = $props();
 </script>
 
 <label>
