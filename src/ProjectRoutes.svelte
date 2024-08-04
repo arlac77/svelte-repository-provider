@@ -9,7 +9,7 @@
     import ProjectPage from "./ProjectPage.svelte";
     import DisplayNameLink from "./DisplayNameLink.svelte";
   
-    let { provider } = $props();
+    let { provider, projectItem } = $props();
   </script>
   
   <Route
@@ -18,7 +18,7 @@
     iteratorFor={() => provider.projects}
     objectInstance={Project}
     component={ProjectsPage}>
-    <slot />
+    {@render projectItem()};
     <Route
       path="/:project"
       factory={DetailRoute}
