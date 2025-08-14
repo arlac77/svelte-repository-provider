@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "content-entry": "^14.2.4",
-    "repository-provider": "^35.5.10",
+    "repository-provider": "^35.5.11",
     "svelte-guard-history-router": "^6.1.2"
   },
   "devDependencies": {
@@ -61,7 +61,7 @@
   },
   "optionalDependencies": {
     "mf-hosting-cloudflare": "^1.0.8",
-    "mf-hosting-frontend": "^3.9.4"
+    "mf-hosting-frontend": "^3.9.5"
   },
   "repository": {
     "type": "git",
