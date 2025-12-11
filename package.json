@@ -40,7 +40,7 @@
   "dependencies": {
     "content-entry": "^14.2.7",
     "repository-provider": "^36.0.8",
-    "svelte-guard-history-router": "^6.1.2"
+    "svelte-guard-history-router": "^7.0.0"
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^13.0.1",
