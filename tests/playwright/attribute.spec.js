@@ -1,10 +1,12 @@
-import { Selector } from "testcafe";
+import { test, expect } from "@playwright/test";
 
-export const base = "http://localhost:5173/";
+test("attributes", async ({ page }) => {
+  await page.goto("http://localhost:5173/");
 
-fixture`attributes`.page`${base}`;
-
-test("attributes", async t => {
-  await t.expect(Selector("#a1").value).contains("value a1");
-  await t.expect(Selector("#s1").value).contains("value s1");
+  await expect(page.getByRole("textbox", { name: "a1" })).toHaveValue(
+    "value a1"
+  );
+  await expect(page.getByRole("textbox", { name: "s1" })).toHaveValue(
+    "value s1"
+  );
 });
