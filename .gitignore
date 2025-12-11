@@ -6,5 +6,11 @@ bun.lockb
 *.dump
 *.node
 .test
+/playwright/.auth/
 .tmp
 dist
+.last-run.json
+/playwright-report/
+/test-results/
+/blob-report/
+/playwright/.cache/
