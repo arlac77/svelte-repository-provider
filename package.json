@@ -40,7 +40,7 @@
   "dependencies": {
     "content-entry": "^14.2.7",
     "repository-provider": "^36.0.9",
-    "svelte-guard-history-router": "^7.0.0"
+    "svelte-guard-history-router": "^7.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.57.0",
