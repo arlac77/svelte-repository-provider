@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "content-entry": "^14.2.7",
-    "repository-provider": "^36.0.16",
+    "repository-provider": "^36.0.17",
     "svelte-guard-history-router": "^7.0.7"
   },
   "devDependencies": {
