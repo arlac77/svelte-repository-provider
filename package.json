@@ -39,8 +39,8 @@
   },
   "dependencies": {
     "content-entry": "^14.2.7",
-    "repository-provider": "^36.0.24",
-    "svelte-guard-history-router": "^7.0.9"
+    "repository-provider": "^36.0.26",
+    "svelte-guard-history-router": "^7.0.10"
   },
   "devDependencies": {
     "@playwright/test": "^1.58.0",
